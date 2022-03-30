@@ -1,10 +1,8 @@
-/*
-ARRAY
-- pozicijos prasideda nuliu
-- pozicijos tik sveikieji skaiciai
-- ilgis / irasu kiekis -> .length
+/* ARRAY
+    - pozicijos prasideda nuliu
+    - pozicijos tik sveikieji skaiciai
+    - ilgis / irasu kiekis -> .length
 */
-
 const pazymiai = [10, 2, 8, 4, 6];
 console.log('Pazymiai:', pazymiai);
 
@@ -27,8 +25,6 @@ console.log('Paskutinis:', pazymiai[pazymiai.length - 1]);
 // [1, 2] -> 2 -> 1
 // [1, 2, -6] -> 3 -> 2
 // [1, 2, -6, 13] -> 4 -> 3
-
-
 
 const studentai = ['Petras', 'Maryte', 'Jonas', 'Ona', 'Gertruda', 'Aloyzas'];
 console.log(studentai);
