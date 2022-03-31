@@ -26,3 +26,20 @@ console.log('Jonas:', jonoVidurkis);
 
 const onosVidurkis = vidurkis(ona);
 console.log('Ona:', onosVidurkis);
+/*
+Funkcija gauna du skaicius ir turi grazinti lygti su sprendimu, pvz.:
+2 + 2 = 4
+*/
+
+function suma(a, b) {
+    return `${a} + ${b} = ${a + b}`;
+}
+
+const s1 = suma(2, 3);
+console.log(s1);
+
+const s2 = suma(0.1, 0.2);
+console.log(s2);
+
+const s3 = suma(-88, -11);
+console.log(s3);
